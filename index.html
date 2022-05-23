@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos Gordos</title>
+
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <!---Seccion del menu de busqueda-->
+    <header>
+        <div class="navbar">
+            <a href="" class="navLink"><h2>Tacos Gordos</h2><div></div></a>
+            <ul class="navUl">
+                <a href="#menuSection" class="navLink"><h2>Menu</h2><div></div></a>
+                <a href="#sucurslesSection" class="navLink"><h2>Sucursales</h2><div></div></a>
+                <a href="#contactSection" class="navLink"><h2>Contacto</h2><div></div></a>
+                <a href="" class="navLink"><h2>Nosotros</h2><div></div></a>
+                <a href="" class="navLink">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" class="bi bi-bag-fill mainIcon" viewBox="0 0 16 16">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+                    </svg>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="mainHeader">
+            
+        </div>
+    </section>
+    <!---Seccion Principañ de la pagina-->
+    <main class="menuSection">
+        <br id="menuSection">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="mainTitle">Menu del Dia</h1>
+        <div class="gridHolder">
+            
+        </div>
+    </main>
+    <!--Seccion de locaciones-->
+    <section class="locationsSection">
+        <br id="sucurslesSection">
+        <br>
+        <br>
+        <br>
+        <h1 class="mainTitle">Locaciones</h1>
+
+        <div class="sectionHolder">
+            <div class="cardSectionLocation">
+                <div class="locationCard" id="Cerro">
+                    <h3>Cerro de la Silla, MTY</h3>
+                    <p>672100, Nuevo Leon</p>
+                </div>
+                <div class="locationCard" id="Ukrania">
+                    <h3>Ukroposhta, Ukrania</h3>
+                    <p>Zona Fronteriza, Ukrania - Rusia</p>
+                </div>
+                <div class="locationCard" id="North">
+                    <h3>Polo Norte, EE.UU</h3>
+                    <p>Alaska 99705, EE. UU</p>
+                </div>
+                <div class="locationCard" id="Alaska">
+                    <h3>Kaktovik Arctic Adventures</h3>
+                    <p>2094 Barter Ave, Kaktovik, AK 99747</p>
+                </div>
+                <div class="locationCard" id="Valle">
+                    <h3>Valle de Lincoln, Garcia</h3>
+                    <p>66026 N.L</p>
+                </div>
+            </div>
+            <div class="mapHolder">
+                <iframe class="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=100%&amp;hl=en&amp;q=Cerro%20de%20la%20silla+(Cerro%20de%20la%20Silla)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
+        </div>
+    </section>
+    <!--Seccion de Contacto-->
+    <section class="contactSection">
+        <br id="contactSection">
+        <br>
+        <br>
+        <br>
+        <h1 class="mainTitle">Contactanos</h1>
+        <div class="contactHolderGrid">
+            <div>
+                <p class="darkP">¿Tienes o tuviste algún tipo de problema con nuestros servicios?, no dudes en hacérnoslo saber recuerda que tu experiencia es lo más importante para nosotros.</p>
+            </div>
+            <div class="buttonsHolder">
+                <button class="contactButton">Enviar un correo</button>
+                <button class="contactButton">Contactanos por WhatsApp</button>
+            </div>
+            <div></div>
+            <form action="submit" class="reportForm">
+                <h2 class="h3Blakc">Reportanos tu inconveniente</h2>
+                <br>
+                <label for="nameId">Tu Nombre</label>
+                <input type="text" placeholder="Nombre" id="nameId">
+
+                <label for="yourContact">Por donde te contactamos?</label>
+                <input type="text" id="yourContact" placeholder="Correo, Numero, Etc...">
+
+                <label for="yourProblem">Comentanos tu problema</label>
+                <textarea name="yourProblem" id="yourProblem" cols="30" rows="10"></textarea>
+
+                <button class="contactButton">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
